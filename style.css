@@ -131,7 +131,7 @@
     padding-top: 130px;
     width: 1200px;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .plan-title {
@@ -169,7 +169,9 @@
 
 /* servicve section style */
 .service{
-    padding-top: 100px;
+    padding-top: 80px;
+    background: #f7f7f7;
+    padding-bottom: 50px;
 }
 .service-container{
     width: 1200px;
@@ -182,6 +184,7 @@
     border: 1px solid #ddd;
     padding: 40px 60px 40px 30px;
     border-radius: 5px;
+    background: #fff;
 }
 .items span{
     font-size: 30px;
@@ -214,7 +217,7 @@
 
 /* clock section style */
 .clock-sec {
-    margin: 130px 0;
+    margin: 110px 0;
 }
 
 .clock-container {
@@ -314,6 +317,7 @@
 }
 .social-icon img{
     margin-right: 10px;
+    cursor: pointer;
 }
 /* ========== End Code============ */
 
