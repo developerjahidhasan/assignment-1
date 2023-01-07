@@ -215,3 +215,59 @@
     border: 1px solid #fff;
     color: #fff;
 }
+/* pree footer section */
+.free-footer{
+    background-color: #151414;
+    padding: 100px 0px;
+}
+.pre-footer-container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    gap: 330px;
+}
+.footer-left{
+    width: 35%;
+}
+.footer-left h1{
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.footer-left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+.pree-footer-right h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.pree-footer-right .email{
+    padding: 13px 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    width: 110%;
+}
+.pree-footer-right .secendery-btn{
+    padding: 13px 20px;
+    border: 1px solid #fff;
+}
+.pree-footer-right .secendery-btn:hover{
+    border: 1px solid #F15B22;
+    background: transparent;
+}
+.social-icon img{
+    margin-right: 10px;
+}
+
+/* =============== code end============== */
