@@ -7,13 +7,18 @@
 /* banner-section */
 .banner-section{
     background: url(./image/banner1.png);
-    background-position: cover;
-
+    background-position: bottom, center;
+    
+    
+}
+.banner-container{
+    width: 1200px;
+    margin: auto;
 }
 
 .banner-right{
     text-align: right;
-    padding: 200px 160px 130px 160px;
+    padding: 160px 60px 130px 160px;
     text-align: right;
     
 
@@ -43,4 +48,56 @@
     color: #fff;
     border: none;
 
+}
+/* about style */
+.about-sec{
+    margin-top: 130px;
+}
+.about-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.about-left{
+    width: 100%;
+    text-align: center;
+}
+.about-left img{
+    width: 70%;
+
+    
+}
+.about-right{
+    width: 60%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.about-right h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.about-right p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+/* list style */
+.about-list{
+    list-style: none;
+}
+.about-list li{
+    margin-bottom: 8px;
+    font-size: 16;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444343;
+}
+.about-list li i{
+    color: #11bb6b;
 }
